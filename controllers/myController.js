@@ -1,4 +1,4 @@
-const Palabra = require("..models/Palabras"); 
+const Palabra = require("..models/Palabra"); 
 
 exports.inicio = (req, res) => {
     res.render("index")
