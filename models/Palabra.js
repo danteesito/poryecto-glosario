@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const palabraSchema = new mongoose.Schema({
-  nombre: { type: String, required: true },
+  palabra: { type: String, required: true },
 });
 
 const Palabra = mongoose.model('Palabra', palabraSchema);
